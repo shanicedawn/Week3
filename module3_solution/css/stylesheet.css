@@ -1,0 +1,95 @@
+* {
+	font-family: 'Varela Round', sans-serif;
+	color: black;
+}
+nav {
+	top: 0;
+	right: 0;
+	position: absolute !important;
+	background-color: #999999;
+}
+@media only screen and (max-width: 767px) {
+	nav {
+		top: 0;
+		right: 0;
+		position: fixed !important;
+		z-index: 1 !important;
+		background-color: #999999;
+	}
+}
+
+.wrapper {
+	height: 1000px;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	padding: 0 !important;
+}
+
+.navbar-light a{   
+     color:black !important;
+}
+.navbar-light ul li:hover {
+	background-color: #dedede !important;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+.navbar h1, .navbar a {
+	font-weight: bolder;
+	color: #000000;
+}
+.navbar-toggler {
+	margin-right: 15px;
+}
+
+.navbar h1 {
+	padding: 20px 15px;	
+}
+.navbar h1 a {
+	text-decoration: none;
+	color: black;
+}
+.navbar ul {
+	padding: 0;
+}
+.navbar ul li {
+	border-bottom: black solid 1px;
+	color: black;
+}
+.under-navbar {
+	background-color: white;
+}
+/**Header **/
+header {
+	padding: 150px 0 20px 0;
+	position: relative;
+	z-index: 0;
+}
+
+header h2 {
+	font-weight: bolder;
+}
+
+/** Section Article **/
+section {
+	position: relative;
+	z-index: 0;
+}
+section article div {
+	background-color: #999999;
+}
+
+section article div h3 {
+	padding-top: 20px;
+}
+
+section article div p {
+	padding-bottom: 20px;
+}
